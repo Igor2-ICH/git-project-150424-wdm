@@ -2,6 +2,13 @@
 
 # 1. Запрос исходной и целевой директории у пользователя
 
+read -p "введите адрес исходной директории:" inputDir
+read -p "введите целевую директорию:" resultDir
+
+# Marina Elizarova
+# Anastasiia Gudkova
+# Christina Volodina
+# Eugen Stier
 
 # 2. Запрос расширения файлов, которые нужно скопировать
 
