@@ -24,5 +24,7 @@
 
 # 8 .Подсчет общего количества файлов в целевой директории
 
-
-
+# 9. 
+# https://github.com/Igor2-ICH/git-project-150424-wdm/issues/8
+# Igor,  
+echo "Готово."
