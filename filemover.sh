@@ -75,6 +75,10 @@ echo "Файлы с расширением '$file_extension'
 
 
 # 6. Подсчет общего количества файлов в исходной директории
+#Талмазан, Скрипник
+
+count=$(find "$source_directory" -maxdepth 2 -type f | wc -l)
+echo "Количество файлов в исходной директории $source_directory: $count"
 
 
 
