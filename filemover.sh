@@ -15,6 +15,7 @@
 # 5. Проверка, есть ли файлы с указанным расширением в исходной директории
 # Задайте источник и расширение файла
 # https://github.com/Igor2-ICH/git-project-150424-wdm/issues/4#issue-2404060957
+# contributors: Leonid Afanasenko, Valeriya Levin, Tatiana Shulha, Evgeniya Kuznetsova
 
 source_directory="/путь/к/исходной/директории"
 file_extension="txt"
