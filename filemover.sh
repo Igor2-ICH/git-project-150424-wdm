@@ -13,6 +13,22 @@
 
 
 # 5. Проверка, есть ли файлы с указанным расширением в исходной директории
+# Задайте источник и расширение файла
+# https://github.com/Igor2-ICH/git-project-150424-wdm/issues/4#issue-2404060957
+
+source_directory="/путь/к/исходной/директории"
+file_extension="txt"
+
+# Используйте команду find, чтобы получить список файлов с заданным расширением
+matching_files=$(find "$source_directory" -maxdepth 1 -type f -name "*.$file_extension")
+
+# Проверьте, найдены ли файлы
+if [[ -z "$matching_files" ]]; then
+  echo "В директории '$source_directory' нет файлов с расширением '.$file_extension'."
+  exit 1
+fi
+
+echo "Файлы с расширением '$file_extension'
 
 
 # 6. Подсчет общего количества файлов в исходной директории
