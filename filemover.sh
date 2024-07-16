@@ -11,7 +11,8 @@ read -p "введите целевую директорию:" resultDir
 # Eugen Stier
 
 # 2. Запрос расширения файлов, которые нужно скопировать
-
+# @Yana Naumova, @Nataliia Yeremenko, Oleksandr Zhurba
+read -p "File extantion for copy: " file_extension
 
 # 3. Проверка существования исходной директории
 
