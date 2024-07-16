@@ -10,7 +10,11 @@
 
 
 # 4. Проверка существования целевой директории
-
+# Oleksandr Kuripko, Olga Beliaeva, Olha Biekhtir, Yevhen Silich
+if [ ! -d "$target_directory" ]; then
+echo "'$target_directory' directory does not exist."
+exit 1
+fi
 
 # 5. Проверка, есть ли файлы с указанным расширением в исходной директории
 
